@@ -1,0 +1,5 @@
+# Inference-only dependencies for handler.py. Versions match the training
+# environment so the saved Keras model and scalers load without mismatches.
+tensorflow==2.21.0
+scikit-learn==1.9.1
+numpy==2.5.3

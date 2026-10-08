@@ -1,0 +1,20 @@
+# Data and training artifacts (large, or governed by the dataset's own terms)
+training/data/*
+!training/data/.gitkeep
+training/kt_search/
+*.csv
+*.npz
+*.h5
+
+# Python / notebooks
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Secrets and local files - never commit
+.env
+*_key.txt
+*api_key*
+*.pem
+.DS_Store
+training/artifacts/
